@@ -1,0 +1,32 @@
+.color-option {
+    border: 3px solid #d72323;
+}
+
+.gear-check {
+    background-color: #d72323;
+}
+
+.navbar-inverse .navbar-brand span {
+    color: #d72323;
+}
+
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: #d72323;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    background-color: #d72323;
+}
+
+.testimonial span {
+    color: #d72323;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    border-top: 3px solid #d72323;
+}
+
+#testimonials .carousel-indicators li {
+    background-color: #d72323;
+}
