@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>About Us</title>
+    <title>FAQ</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -59,8 +59,8 @@
           <section class="collapse navbar-collapse" id="ournavbar">
             <ul class="nav navbar-nav  navbar-right">
               <li><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
-              <li class="active"><a href="about.html">About</a></li>
-              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="about.html">About</a></li>
+              <li class="active"><a href="faq.html">FAQ</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
                 <ul class="dropdown-menu">
@@ -85,67 +85,88 @@
         <div class="container">
           <ol class="breadcrumb">
             <li><a href="index.html">Home</a></li>
-            <li class="active">About Us</li>
+            <li class="active">FAQ</li>
           </ol>
         </div>
       </section>
       <!-- End Breadcrumb Section -->
 
-      <!-- Start About Us Section -->
-      <section class="about-us text-center">
+      <!-- Start FAQ Intro Section -->
+      <section class="faq text-center">
         <div class="container">
-          <h1>About Us</h1>
-          <hr>
-          <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam earum dolor quisquam libero veritatis vel voluptates? Explicabo fuga dignissimos inventore molestias. Sed dolor qui ex eum? Quod et aspernatur sunt?</p>
-          <img src="images/group-of-people.jpg" alt="group of people" class="img-responsive">
+            <h1>Frequently Asked Questions</h1>
+            <hr>
+            <p class="lead">Here you will find all the answers you are looking for.</p>
         </div>
       </section>
-      
-      <!-- End About Us Section -->
+      <!-- End FAQ Intro Section -->
 
-      <!-- Start About Features Section -->
-      <section class='about-features text-center'>
+      <!-- Start Questions Section -->
+      <section class='faq-questions'>
         <div class="container">
-          <div class="row">
-            <div class='col-sm-4'>
-              <i class="fas fa-code fa-5x"></i>
-              <h3>We Love Code</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam qui laborum minima odit, asperiores beatae quae! At, officiis tempore? Velit maiores hic molestiae quidem, dolores ipsum iusto atque quaerat quo.</p>
+          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    This is Question #1
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
             </div>
-            <div class='col-sm-4'>
-              <i class="fas fa-child fa-5x"></i>
-              <h3>We Are Happy</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam qui laborum minima odit, asperiores beatae quae! At, officiis tempore? Velit maiores hic molestiae quidem, dolores ipsum iusto atque quaerat quo.</p>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingTwo">
+                <h4 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    This is Question #2
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div class="panel-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
             </div>
-            <div class='col-sm-4'>
-              <i class="fas fa-users fa-5x"></i>
-              <h3>We Are Social</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam qui laborum minima odit, asperiores beatae quae! At, officiis tempore? Velit maiores hic molestiae quidem, dolores ipsum iusto atque quaerat quo.</p>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingThree">
+                <h4 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    This is Question #3
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                <div class="panel-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
             </div>
 
-          
-          </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingThree">
+                <h4 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                    This is Question #4
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                <div class="panel-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+          </div>       
+
         </div>
-      </section>
-      <!-- End About Features Section -->
-
-      <!-- Start About CEO Section -->
-      <section class="about-ceo">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-5">
-              <img src="images/businessman.png" alt="ceo" class="img-responsive">
-            </div>
-
-            <div class="col-sm-7">
-              <h2>We Are Happy To Help You</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla cupiditate nemo quos ipsum tempore rem dolorum, distinctio fugit eius totam sapiente fuga vero earum consequuntur vitae, voluptatibus facere illum doloremque!</p>
-              <a href="#" class="btn btn-primary">Contact Us</a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End About CEO Section -->
+    </section>
+      <!-- End Questions Section -->
 
       <!-- Start Ultimate Footer Section -->
       <footer>
